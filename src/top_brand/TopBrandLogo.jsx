@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const TopBrandLogo = ({ id, image, brand, name }) => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <Link to={`/topbranddetails/${brand}`} key={id} className="block">
+    <Link
+      to={`/topbranddetails/${brand}`}
+      key={id}
+      className="block"
+      data-aos="flip-up"
+      data-aos-duration="2000"
+    >
       <div className="shadow-lg">
         <div className="relative">
           <figure>

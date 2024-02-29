@@ -4,7 +4,7 @@ import TopBrandLogo from "./TopBrandLogo";
 
 const TopBrandProducts = () => {
   return (
-    <div className="w-11/12 md:w-10/12 mx-auto ">
+    <div className="w-11/12 md:w-10/12 mx-auto">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-medium text-center mb-10">
         Top Brands
       </h2>

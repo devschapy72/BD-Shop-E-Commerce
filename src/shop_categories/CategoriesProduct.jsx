@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import FormatPrice from "../components/FormatPrice";
 import { NavLink } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const CategoriesProduct = ({ id, name, image, brand, price }) => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="bg-[#ffffffc7] shadow-lg rounded-t-lg overflow-hidden">
+    <div
+      className="bg-[#ffffffc7] shadow-lg rounded-t-lg overflow-hidden"
+      data-aos="zoom-in-up"
+      data-aos-duration="2000"
+    >
       <figure>
         <img src={image} alt={name} className="h-36 w-full object-cover" />
       </figure>
