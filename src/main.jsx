@@ -9,8 +9,11 @@ import { Auth0Provider } from "@auth0/auth0-react";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Auth0Provider
-    domain={import.meta.env.VITE_DOMAIN_ID}
-    clientId={import.meta.env.VITE_CLIENT_ID}
+    // domain={import.meta.env.VITE_DOMAIN_ID}
+    // clientId={import.meta.env.VITE_CLIENT_ID}
+
+    domain="dev-asuie1k5njhnzq4a.us.auth0.com"
+    clientId="OkiVWGmIQNE4EGTxlL1ElAfcxHnmwkmI"
     authorizationParams={{
       redirect_uri: window.location.origin,
     }}
