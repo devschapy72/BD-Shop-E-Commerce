@@ -49,7 +49,7 @@ const HeroProduct = () => {
           <div>
             <figure>
               <img
-                src="https://pergasco.com/wp-content/uploads/2016/05/c-users-reza-jarah-desktop-3-jpg.jpeg"
+                src="https://static.vecteezy.com/system/resources/previews/002/921/439/non_2x/delivery-car-with-order-on-mobile-illustration-vector.jpg"
                 alt="shirtimage"
                 className="w-full sm:h-[16rem] md:h-[20rem] lg:h-[14.5rem] mb-[1rem]  object-cover"
               />

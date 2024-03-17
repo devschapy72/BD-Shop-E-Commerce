@@ -33,7 +33,8 @@ const CategoriesData = [
 
   {
     id: "iuses8esfjsseu66",
-    image: "https://ruperhat.com/wp-content/uploads/2023/03/sdfer-2.jpg",
+    image:
+      "https://1b995d4a.rocketcdn.me/wp-content/uploads/2023/07/web1-1-600x600.jpg",
     name: "Panjabi",
     category: "Panjabi",
   },

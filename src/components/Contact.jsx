@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="">
-      <div className="w-10/12 sm:w-8/12 lg:w-10/12 mx-auto">
+    <>
+      <div className="w-10/12 sm:w-8/12 lg:w-10/12 mx-auto mb-5 sm:mb-10 md:mb-16">
         <h2 className="text-center mb-16 text-2xl sm:text-4xl font-serif font-medium">
           Contact Me
         </h2>
@@ -63,7 +63,17 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+      {/* MAP_IMAGE */}
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58311.63759435839!2d90.23983435820311!3d24.014226500000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755dd9abfac8dc1%3A0x52807671edd88246!2sbd%20shop%20online%20shopping!5e0!3m2!1sen!2sbd!4v1710694987277!5m2!1sen!2sbd"
+        width="100%"
+        height="350"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </>
   );
 };
 
